@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LERP Shape Interpolation Tool</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>LERP Shape Interpolation</h1>
+        <p>Aheed Siddiqui - B23110006081</p>
+      </header>
+
+      <div class="main">
+        <div class="canvas-box" id="canvasContainer"></div>
+
+        <div class="controls">
+          <h3>Controls</h3>
+
+          <ul>
+            <li><b>Press A Key</b> → Draw Shape A</li>
+            <li><b>Press B Key</b> → Draw Shape B</li>
+            <li><b>SPACE</b> → Start / Stop Animation</li>
+            <li><b>R</b> → Reset</li>
+          </ul>
+
+          <div class="info">
+            <p>Shape A: <span id="countA">0</span> points</p>
+            <p>Shape B: <span id="countB">0</span> points</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
